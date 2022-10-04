@@ -1,0 +1,31 @@
+.album-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.play-info {
+  align-content: center;
+  align-items: center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-height: 75vh;
+  padding: 20px;
+}
+
+.play-info > img {
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.card-play {
+  align-items: center;
+  border: 1px solid yellowgreen;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 75vh;
+  overflow: auto;
+}

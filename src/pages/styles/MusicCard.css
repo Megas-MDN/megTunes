@@ -1,0 +1,21 @@
+.music-card-album {
+  background: rgba(128, 128, 128, 0.171);
+  border: 1px solid red;
+  border-radius: 15px;
+  display: grid;
+  padding: 10px;
+}
+
+.name-check {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.name-check > p {
+
+  /* border: 1px solid blue; */
+  width: 200px;
+}

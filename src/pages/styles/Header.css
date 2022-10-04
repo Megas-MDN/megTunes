@@ -1,0 +1,42 @@
+.header-user {
+  align-items: center;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.user-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}
+
+.user-container > img {
+  border-radius: 50%;
+  max-height: 70px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  align-items: center;
+  align-self: center;
+
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  font-size: 1.5rem;
+  min-height: 100px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.ativo {
+  color: gold;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

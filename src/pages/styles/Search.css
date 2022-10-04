@@ -1,0 +1,90 @@
+.search-container {
+
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+
+.form-container {
+  display: flex;
+  gap: 20px;
+}
+
+.input-label-pesquisa {
+
+  /* border: 5px solid yellow; */
+  display: flex;
+  flex: 2;
+}
+
+.input-pesquisa {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 3rem;
+  padding: 15px;
+  width: 100%;
+}
+
+.btn-pesquisa {
+  border-radius: 15px;
+  flex: 1;
+  font-size: 1.2rem;
+}
+
+.result-music {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.music-card {
+  align-content: center;
+  background: rgba(128, 128, 128, 0.171);
+  border: 1px solid red;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 350px;
+  padding: 15px;
+}
+
+.music-container > p {
+  color: gold;
+  font-size: 1.6rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.music-card p {
+  color: white;
+  font-size: 1rem;
+  margin: 5px auto;
+  text-align: center;
+  text-overflow: clip;
+  width: 100%;
+}
+
+.music-card p:nth-child( 1 ) {
+  color: gold;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.music-card p:nth-child( 2 ) {
+  border-top: 3px solid rgb(248, 8, 8);
+  padding-top: 15px;
+}
+
+.music-card img {
+  border-radius: 15px;
+}
+
+.music-card img:hover {
+  opacity: 0.7;
+}
+
